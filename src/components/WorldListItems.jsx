@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import styles from "./WorldListItems.module.css";
+import "./WorldListItems.css";
 
 const WorldListItems = ({
   className = "",
@@ -14,57 +14,52 @@ const WorldListItems = ({
   k1,
 }) => {
   return (
-    <div className={[styles.worldListItems, className].join(" ")}>
-      <div className={styles.backgroundbordershadow}>
+    <div className={`world-list-items3 ${className}`}>
+      <div className="backgroundbordershadow4">
         <img
-          className={styles.linkEba994eb9e9ceb9}
+          className="link-eba994eb9e9ceb9"
           loading="lazy"
           alt=""
           src={linkEBA994EB9E9CEB9494}
         />
-        <div className={styles.backgroundbordershadowInner}>
-          <div className={styles.linkParent}>
-            <div className={styles.link}>
-              <div className={styles.div}>{prop}</div>
+        <div className="backgroundbordershadow-inner3">
+          <div className="link-parent1">
+            <div className="link4">
+              <div className="div14">{prop}</div>
             </div>
-            <div className={styles.frameParent}>
-              <div className={styles.containerParent}>
+            <div className="frame-parent3">
+              <div className="container-parent2">
                 <img
-                  className={styles.containerIcon}
+                  className="container-icon2"
                   loading="lazy"
                   alt=""
                   src={container}
                 />
-                <div className={styles.container}>
-                  <div className={styles.div1}>{prop1}</div>
+                <div className="container5">
+                  <div className="div15">{prop1}</div>
                 </div>
-                <div className={styles.imageWrapper}>
+                <div className="image-wrapper2">
                   <img
-                    className={styles.imageIcon}
+                    className="image-icon4"
                     loading="lazy"
                     alt=""
                     src={image}
                   />
                 </div>
               </div>
-              <div className={styles.iconParent}>
+              <div className="icon-parent2">
                 <img
-                  className={styles.icon}
+                  className="icon11"
                   loading="lazy"
                   alt=""
                   src="/icon-2.svg"
                 />
-                <div className={styles.placeholders}>{placeholders}</div>
-                <div className={styles.kWrapper}>
-                  <div className={styles.k}>{k}</div>
+                <div className="placeholders">{placeholders}</div>
+                <div className="k-wrapper1">
+                  <div className="k6">{k}</div>
                 </div>
-                <img
-                  className={styles.icon1}
-                  loading="lazy"
-                  alt=""
-                  src={icon1}
-                />
-                <div className={styles.k1}>{k1}</div>
+                <img className="icon12" loading="lazy" alt="" src={icon1} />
+                <div className="k7">{k1}</div>
               </div>
             </div>
           </div>

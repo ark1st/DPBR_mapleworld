@@ -1,106 +1,101 @@
 import WorldListItems1 from "./WorldListItems1";
 import WorldListItems from "./WorldListItems";
 import PropTypes from "prop-types";
-import styles from "./MaplestoryworldsnexoncomBy.module.css";
+import "./MaplestoryworldsnexoncomBy.css";
 
 const MaplestoryworldsnexoncomBy = ({ className = "" }) => {
   return (
-    <div className={[styles.maplestoryworldsnexoncomBy, className].join(" ")}>
-      <div className={styles.backgroundhorizontalborder}>
-        <div className={styles.frameParent}>
-          <div className={styles.buttonWrapper}>
+    <div className={`maplestoryworldsnexoncom-by ${className}`}>
+      <div className="backgroundhorizontalborder">
+        <div className="frame-parent">
+          <div className="button-wrapper">
             <img
-              className={styles.buttonIcon}
+              className="button-icon"
               loading="lazy"
               alt=""
               src="/button.svg"
             />
           </div>
           <img
-            className={styles.linkHeading1BiMaplesto}
+            className="link-heading-1-bi-maplesto"
             loading="lazy"
             alt=""
             src="/link--heading-1--bi-maplestoryworlds96daecepng@2x.png"
           />
         </div>
-        <div className={styles.backgroundhorizontalborderInner}>
-          <div className={styles.frameGroup}>
-            <div className={styles.iconWrapper}>
-              <img
-                className={styles.icon}
-                loading="lazy"
-                alt=""
-                src="/icon.svg"
-              />
+        <div className="backgroundhorizontalborder-inner">
+          <div className="frame-group">
+            <div className="icon-wrapper">
+              <img className="icon" loading="lazy" alt="" src="/icon.svg" />
             </div>
-            <button className={styles.button}>
-              <a className={styles.a}>로그인</a>
+            <button className="button">
+              <a className="a">로그인</a>
             </button>
           </div>
         </div>
       </div>
-      <section className={styles.main}>
-        <div className={styles.backgroundhorizontalborderParent}>
-          <div className={styles.backgroundhorizontalborder1}>
-            <div className={styles.container}>
-              <div className={styles.item}>
-                <a className={styles.a1}>전체</a>
+      <section className="main">
+        <div className="backgroundhorizontalborder-parent">
+          <div className="backgroundhorizontalborder1">
+            <div className="container">
+              <div className="item">
+                <a className="a1">전체</a>
               </div>
-              <div className={styles.item1}>
-                <div className={styles.partners}>메월드 Partners</div>
+              <div className="item1">
+                <div className="partners">메월드 Partners</div>
               </div>
-              <div className={styles.item2}>
-                <a className={styles.next}>메월드 Next</a>
+              <div className="item2">
+                <a className="next">메월드 Next</a>
               </div>
-              <div className={styles.item3}>
-                <a className={styles.a2}>인기</a>
+              <div className="item3">
+                <a className="a2">인기</a>
               </div>
-              <div className={styles.item4}>
-                <div className={styles.div}>새롭게 떠오르는</div>
-                <div className={styles.button1}>
+              <div className="item4">
+                <div className="div">새롭게 떠오르는</div>
+                <div className="button1">
                   <img
-                    className={styles.icon1}
+                    className="icon1"
                     loading="lazy"
                     alt=""
                     src="/icon-1.svg"
                   />
-                  <div className={styles.gradient} />
+                  <div className="gradient" />
                 </div>
               </div>
-              <div className={styles.item5}>
-                <a className={styles.a3}>신규</a>
+              <div className="item5">
+                <a className="a3">신규</a>
               </div>
-              <div className={styles.item6}>
-                <a className={styles.a4}>싱글 플레이 가능</a>
+              <div className="item6">
+                <a className="a4">싱글 플레이 가능</a>
               </div>
-              <div className={styles.item7}>
-                <div className={styles.div1}>매칭이 필요한</div>
+              <div className="item7">
+                <div className="div1">매칭이 필요한</div>
               </div>
-              <div className={styles.item8}>
-                <div className={styles.div2}>리메이크월드 활용</div>
+              <div className="item8">
+                <div className="div2">리메이크월드 활용</div>
               </div>
-              <div className={styles.item9}>
-                <a className={styles.a5}>리메이크</a>
+              <div className="item9">
+                <a className="a5">리메이크</a>
               </div>
-              <div className={styles.item10}>
-                <div className={styles.div3}>꾸미기</div>
+              <div className="item10">
+                <div className="div3">꾸미기</div>
               </div>
             </div>
           </div>
-          <div className={styles.frameWrapper}>
-            <div className={styles.frameContainer}>
-              <div className={styles.heading4PartnersParent}>
-                <h2 className={styles.heading4}>메월드 Partners</h2>
-                <div className={styles.wrapper}>
-                  <div className={styles.div4}>전체보기</div>
+          <div className="frame-wrapper">
+            <div className="frame-container">
+              <div className="heading-4-partners-parent">
+                <h2 className="heading-4">메월드 Partners</h2>
+                <div className="wrapper">
+                  <div className="div4">전체보기</div>
                 </div>
               </div>
-              <div className={styles.partnersWrapper}>
-                <h3 className={styles.partnersContainer}>
-                  <p className={styles.partners1}>
+              <div className="partners-wrapper">
+                <h3 className="partners-container">
+                  <p className="partners1">
                     메월드 Partners 크리에이터가 제작한 월드를 만나보세
                   </p>
-                  <p className={styles.p}>요.</p>
+                  <p className="p">요.</p>
                 </h3>
               </div>
               <WorldListItems1
@@ -135,33 +130,31 @@ const MaplestoryworldsnexoncomBy = ({ className = "" }) => {
                 icon1="/icon-3.svg"
                 k1="1.4m"
               />
-              <div className={styles.worldListItems}>
-                <div className={styles.backgroundbordershadow}>
+              <div className="world-list-items">
+                <div className="backgroundbordershadow">
                   <img
-                    className={styles.link2037200107401695120240}
+                    className="link-20372001074016951-20240"
                     loading="lazy"
                     alt=""
                     src="/link--20372001074016951-20240628180628427-1-eadfa2c095c2407f86dd00af28898895png@2x.png"
                   />
-                  <div className={styles.backgroundbordershadowInner}>
-                    <div className={styles.frameDiv}>
-                      <div className={styles.parent}>
-                        <div className={styles.div5}>
-                          꽁꽁얼어붙은 한강 위 고양…
-                        </div>
-                        <div className={styles.containerParent}>
+                  <div className="backgroundbordershadow-inner">
+                    <div className="frame-div">
+                      <div className="parent">
+                        <div className="div5">꽁꽁얼어붙은 한강 위 고양…</div>
+                        <div className="container-parent">
                           <img
-                            className={styles.containerIcon}
+                            className="container-icon"
                             loading="lazy"
                             alt=""
                             src="/container-1@2x.png"
                           />
-                          <div className={styles.container1}>
-                            <div className={styles.div6}>컴뱃암즈</div>
+                          <div className="container1">
+                            <div className="div6">컴뱃암즈</div>
                           </div>
-                          <div className={styles.imageWrapper}>
+                          <div className="image-wrapper">
                             <img
-                              className={styles.imageIcon}
+                              className="image-icon"
                               loading="lazy"
                               alt=""
                               src="/image.svg"
@@ -169,24 +162,24 @@ const MaplestoryworldsnexoncomBy = ({ className = "" }) => {
                           </div>
                         </div>
                       </div>
-                      <div className={styles.iconParent}>
+                      <div className="icon-parent">
                         <img
-                          className={styles.icon2}
+                          className="icon2"
                           loading="lazy"
                           alt=""
                           src="/icon-2.svg"
                         />
-                        <div className={styles.placeholder}>60%</div>
-                        <div className={styles.placeholderWrapper}>
-                          <div className={styles.placeholder1}>(6)</div>
+                        <div className="placeholder">60%</div>
+                        <div className="placeholder-wrapper">
+                          <div className="placeholder1">(6)</div>
                         </div>
                         <img
-                          className={styles.icon3}
+                          className="icon3"
                           loading="lazy"
                           alt=""
                           src="/icon-3.svg"
                         />
-                        <div className={styles.placeholder2}>401</div>
+                        <div className="placeholder2">401</div>
                       </div>
                     </div>
                   </div>
@@ -257,47 +250,43 @@ const MaplestoryworldsnexoncomBy = ({ className = "" }) => {
                 icon1="/icon-3.svg"
                 k1="113.1k"
               />
-              <div className={styles.worldListItems1}>
-                <div className={styles.backgroundbordershadow1}>
-                  <div className={styles.link}>
+              <div className="world-list-items1">
+                <div className="backgroundbordershadow1">
+                  <div className="link">
                     <img
-                      className={styles.ec7662f62481e9874Aac759255Icon}
+                      className="ec766-2f62-481e-9874-aac759255-icon"
                       alt=""
                       src="/20372001074652850-20240310224303410-1-638ec7662f62481e9874aac75925528apng@2x.png"
                     />
-                    <div className={styles.overlay}>
-                      <img className={styles.icon4} alt="" src="/icon-22.svg" />
-                      <div className={styles.frame}>
-                        <b className={styles.b}>점검 중</b>
+                    <div className="overlay">
+                      <img className="icon4" alt="" src="/icon-22.svg" />
+                      <div className="frame">
+                        <b className="b">점검 중</b>
                       </div>
                     </div>
                   </div>
-                  <div className={styles.backgroundbordershadowChild}>
-                    <div className={styles.linkParent}>
-                      <div className={styles.link1}>
-                        <div className={styles.div7}>아로나 서버</div>
+                  <div className="backgroundbordershadow-child">
+                    <div className="link-parent">
+                      <div className="link1">
+                        <div className="div7">아로나 서버</div>
                       </div>
-                      <div className={styles.iconGroup}>
-                        <img
-                          className={styles.icon5}
-                          alt=""
-                          src="/icon-2.svg"
-                        />
-                        <div className={styles.frameParent1}>
-                          <div className={styles.containerGroup}>
+                      <div className="icon-group">
+                        <img className="icon5" alt="" src="/icon-2.svg" />
+                        <div className="frame-parent1">
+                          <div className="container-group">
                             <img
-                              className={styles.containerIcon1}
+                              className="container-icon1"
                               alt=""
                               src="/container-8@2x.png"
                             />
-                            <div className={styles.frameWrapper1}>
-                              <div className={styles.containerContainer}>
-                                <div className={styles.container2}>
-                                  <div className={styles.div8}>자유단풍잎</div>
+                            <div className="frame-wrapper1">
+                              <div className="container-container">
+                                <div className="container2">
+                                  <div className="div8">자유단풍잎</div>
                                 </div>
-                                <div className={styles.imageContainer}>
+                                <div className="image-container">
                                   <img
-                                    className={styles.imageIcon1}
+                                    className="image-icon1"
                                     alt=""
                                     src="/image-4.svg"
                                   />
@@ -305,17 +294,13 @@ const MaplestoryworldsnexoncomBy = ({ className = "" }) => {
                               </div>
                             </div>
                           </div>
-                          <div className={styles.placeholderParent}>
-                            <div className={styles.placeholder3}>95%</div>
-                            <div className={styles.kWrapper}>
-                              <div className={styles.k}>(6.1k)</div>
+                          <div className="placeholder-parent">
+                            <div className="placeholder3">95%</div>
+                            <div className="k-wrapper">
+                              <div className="k">(6.1k)</div>
                             </div>
-                            <img
-                              className={styles.icon6}
-                              alt=""
-                              src="/icon-3.svg"
-                            />
-                            <div className={styles.k1}>209.5k</div>
+                            <img className="icon6" alt="" src="/icon-3.svg" />
+                            <div className="k1">209.5k</div>
                           </div>
                         </div>
                       </div>
@@ -323,46 +308,44 @@ const MaplestoryworldsnexoncomBy = ({ className = "" }) => {
                   </div>
                 </div>
               </div>
-              <div className={styles.backgroundbordershadow2}>
+              <div className="backgroundbordershadow2">
                 <img
-                  className={styles.linkEab8b0ed83805e09}
+                  className="link-eab8b0ed8380-5e09"
                   alt=""
                   src="/link--eab8b0ed8380-5e09fb6583fc4026962f6b1d7e0a51d8png@2x.png"
                 />
-                <div className={styles.backgroundbordershadowInner1}>
-                  <div className={styles.frameParent2}>
-                    <div className={styles.linkGroup}>
-                      <div className={styles.link2}>
-                        <div className={styles.mapleland}>
-                          Mapleland (자유시장)
-                        </div>
+                <div className="backgroundbordershadow-inner1">
+                  <div className="frame-parent2">
+                    <div className="link-group">
+                      <div className="link2">
+                        <div className="mapleland">Mapleland (자유시장)</div>
                       </div>
-                      <div className={styles.backgroundborderParent}>
+                      <div className="backgroundborder-parent">
                         <img
-                          className={styles.backgroundborderIcon}
+                          className="backgroundborder-icon"
                           alt=""
                           src="/backgroundborder-2@2x.png"
                         />
-                        <div className={styles.container3}>
-                          <div className={styles.mapleland1}>Mapleland</div>
+                        <div className="container3">
+                          <div className="mapleland1">Mapleland</div>
                         </div>
-                        <div className={styles.imageFrame}>
+                        <div className="image-frame">
                           <img
-                            className={styles.imageIcon2}
+                            className="image-icon2"
                             alt=""
                             src="/image-2.svg"
                           />
                         </div>
                       </div>
                     </div>
-                    <div className={styles.iconContainer}>
-                      <img className={styles.icon7} alt="" src="/icon-2.svg" />
-                      <div className={styles.marketPlayerIcons}>96%</div>
-                      <div className={styles.kContainer}>
-                        <div className={styles.k2}>(6.1k)</div>
+                    <div className="icon-container">
+                      <img className="icon7" alt="" src="/icon-2.svg" />
+                      <div className="market-player-icons">96%</div>
+                      <div className="k-container">
+                        <div className="k2">(6.1k)</div>
                       </div>
-                      <img className={styles.icon8} alt="" src="/icon-3.svg" />
-                      <div className={styles.k3}>337.3k</div>
+                      <img className="icon8" alt="" src="/icon-3.svg" />
+                      <div className="k3">337.3k</div>
                     </div>
                   </div>
                 </div>
@@ -370,73 +353,71 @@ const MaplestoryworldsnexoncomBy = ({ className = "" }) => {
             </div>
           </div>
         </div>
-        <div className={styles.footer}>
-          <div className={styles.footerInner}>
-            <div className={styles.group}>
-              <div className={styles.div9}>이용약관</div>
-              <div className={styles.verticalDividerWrapper}>
-                <div className={styles.verticalDivider} />
+        <div className="footer">
+          <div className="footer-inner">
+            <div className="group">
+              <div className="div9">이용약관</div>
+              <div className="vertical-divider-wrapper">
+                <div className="vertical-divider" />
               </div>
-              <div className={styles.privacyPolicyWrapperParent}>
-                <div className={styles.privacyPolicyWrapper}>
-                  <div className={styles.privacyPolicyContainer}>
-                    <div className={styles.privacyPolicy}>
-                      <b className={styles.b1}>개인정보처리방침</b>
-                      <div className={styles.policyDivider}>
-                        <div className={styles.verticalDivider1} />
+              <div className="privacy-policy-wrapper-parent">
+                <div className="privacy-policy-wrapper">
+                  <div className="privacy-policy-container">
+                    <div className="privacy-policy">
+                      <b className="b1">개인정보처리방침</b>
+                      <div className="policy-divider">
+                        <div className="vertical-divider1" />
                       </div>
                     </div>
                   </div>
-                  <div className={styles.youthProtectionWrapperParent}>
-                    <div className={styles.youthProtectionWrapper}>
-                      <div className={styles.verticalDivider2} />
+                  <div className="youth-protection-wrapper-parent">
+                    <div className="youth-protection-wrapper">
+                      <div className="vertical-divider2" />
                     </div>
-                    <div className={styles.div10}>청소년보호정책</div>
+                    <div className="div10">청소년보호정책</div>
                   </div>
                 </div>
-                <div className={styles.ipParent}>
-                  <div className={styles.ip}>콘텐츠 제작의 IP 사용 가이드</div>
-                  <div className={styles.operationPolicyWrapper}>
-                    <div className={styles.operationDividerContainer}>
-                      <div className={styles.verticalDivider3} />
+                <div className="ip-parent">
+                  <div className="ip">콘텐츠 제작의 IP 사용 가이드</div>
+                  <div className="operation-policy-wrapper">
+                    <div className="operation-divider-container">
+                      <div className="vertical-divider3" />
                     </div>
-                    <div className={styles.div11}>운영정책</div>
+                    <div className="div11">운영정책</div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div className={styles.companyInfo}>
-            <div className={styles.tobenStudioIncContainer}>
-              <p className={styles.tobenStudioInc}>
+          <div className="company-info">
+            <div className="toben-studio-inc-container">
+              <p className="toben-studio-inc">
                 Toben Studio Inc. 대표이사 신지환 2130 E Mariposa Ave, Box 866,
                 El
               </p>
-              <p className={styles.segundoCa90245}>
+              <p className="segundo-ca-90245">
                 Segundo, CA 90245, United States of America
               </p>
-              <p className={styles.eMailSupporttobenstudioc}>
+              <p className="e-mail-supporttobenstudioc">
                 E-mail : support@tobenstudio.com
               </p>
-              <p className={styles.tax920610038}>
+              <p className="tax-92-0610038">
                 사업자등록번호(Tax번호) : 92-0610038
               </p>
-              <p
-                className={styles.nexonKoreaCorp}
-              >{`ⓒ Nexon Korea Corp. & Toben Studio Inc. All Rights Reserved.`}</p>
+              <p className="nexon-korea-corp">{`ⓒ Nexon Korea Corp. & Toben Studio Inc. All Rights Reserved.`}</p>
             </div>
-            <div className={styles.logoWrapper}>
-              <div className={styles.logoContainer}>
+            <div className="logo-wrapper">
+              <div className="logo-container">
                 <img
-                  className={styles.nxlogo579428dpngIcon}
+                  className="nxlogo579428dpng-icon"
                   alt=""
                   src="/nxlogo579428dpng@2x.png"
                 />
-                <div className={styles.studioDividerContainer}>
-                  <div className={styles.verticalDivider4} />
+                <div className="studio-divider-container">
+                  <div className="vertical-divider4" />
                 </div>
                 <img
-                  className={styles.toben4e2f6e1pngIcon}
+                  className="toben4e2f6e1png-icon"
                   alt=""
                   src="/toben4e2f6e1png@2x.png"
                 />

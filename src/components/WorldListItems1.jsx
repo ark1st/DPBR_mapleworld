@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import styles from "./WorldListItems1.module.css";
+import "./WorldListItems1.css";
 
 const WorldListItems1 = ({
   className = "",
@@ -13,42 +13,37 @@ const WorldListItems1 = ({
   k1,
 }) => {
   return (
-    <div className={[styles.worldListItems, className].join(" ")}>
-      <div className={styles.backgroundbordershadow}>
+    <div className={`world-list-items2 ${className}`}>
+      <div className="backgroundbordershadow3">
         <img
-          className={styles.linkEba994ec9db4ed9}
+          className="link-eba994ec9db4ed9"
           loading="lazy"
           alt=""
           src={linkEBA994EC9DB4ED948C}
         />
-        <div className={styles.backgroundbordershadowInner}>
-          <div className={styles.linkParent}>
-            <div className={styles.link}>
-              <div className={styles.div}>{prop}</div>
+        <div className="backgroundbordershadow-inner2">
+          <div className="link-container">
+            <div className="link3">
+              <div className="div12">{prop}</div>
             </div>
-            <div className={styles.iconParent}>
-              <img
-                className={styles.icon}
-                loading="lazy"
-                alt=""
-                src="/icon-2.svg"
-              />
-              <div className={styles.worldListItemInfoItemsParent}>
-                <div className={styles.worldListItemInfoItems}>
+            <div className="icon-parent1">
+              <img className="icon9" loading="lazy" alt="" src="/icon-2.svg" />
+              <div className="world-list-item-info-items-parent">
+                <div className="world-list-item-info-items">
                   <img
-                    className={styles.backgroundborderIcon}
+                    className="backgroundborder-icon1"
                     loading="lazy"
                     alt=""
                     src={backgroundBorder}
                   />
-                  <div className={styles.worldListItemInfoItemsInner}>
-                    <div className={styles.containerParent}>
-                      <div className={styles.container}>
-                        <div className={styles.div1}>{prop1}</div>
+                  <div className="world-list-item-info-items-inner">
+                    <div className="container-parent1">
+                      <div className="container4">
+                        <div className="div13">{prop1}</div>
                       </div>
-                      <div className={styles.imageWrapper}>
+                      <div className="image-wrapper1">
                         <img
-                          className={styles.imageIcon}
+                          className="image-icon3"
                           loading="lazy"
                           alt=""
                           src={image}
@@ -57,18 +52,18 @@ const WorldListItems1 = ({
                     </div>
                   </div>
                 </div>
-                <div className={styles.placeholderParent}>
-                  <div className={styles.placeholder}>{placeholder}</div>
-                  <div className={styles.kWrapper}>
-                    <div className={styles.k}>{k}</div>
+                <div className="placeholder-group">
+                  <div className="placeholder4">{placeholder}</div>
+                  <div className="k-frame">
+                    <div className="k4">{k}</div>
                   </div>
                   <img
-                    className={styles.icon1}
+                    className="icon10"
                     loading="lazy"
                     alt=""
                     src="/icon-3.svg"
                   />
-                  <div className={styles.k1}>{k1}</div>
+                  <div className="k5">{k1}</div>
                 </div>
               </div>
             </div>

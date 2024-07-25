@@ -1,0 +1,206 @@
+.div12,
+.link-eba994ec9db4ed9 {
+  position: relative;
+  flex-shrink: 0;
+}
+.link-eba994ec9db4ed9 {
+  height: 85.1px;
+  width: 156.6px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.div12 {
+  letter-spacing: -0.49px;
+  line-height: 16.8px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 50.1px;
+}
+.icon9,
+.link3 {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.link3 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-12xs-4);
+}
+.icon9 {
+  height: 10px;
+  width: 10px;
+  position: relative;
+}
+.backgroundborder-icon1 {
+  height: 16px;
+  width: 16px;
+  position: absolute;
+  margin: 0 !important;
+  top: -0.3px;
+  left: -12px;
+  border-radius: var(--br-5xs);
+  object-fit: cover;
+  z-index: 1;
+}
+.div13 {
+  position: relative;
+  letter-spacing: -0.3px;
+  line-height: 15.6px;
+  display: inline-block;
+  min-width: 43.3px;
+  flex-shrink: 0;
+}
+.container4 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-12xs-3);
+}
+.image-icon3 {
+  width: 12px;
+  height: 12px;
+  position: relative;
+}
+.image-wrapper1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs-7) 0 0;
+}
+.container-parent1 {
+  gap: var(--gap-11xs);
+}
+.container-parent1,
+.world-list-item-info-items,
+.world-list-item-info-items-inner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.world-list-item-info-items-inner {
+  padding: 0 0 0 var(--padding-7xs);
+}
+.world-list-item-info-items {
+  position: relative;
+}
+.k4,
+.placeholder4 {
+  position: relative;
+  line-height: 10px;
+  display: inline-block;
+}
+.placeholder4 {
+  letter-spacing: -0.22px;
+  font-weight: 600;
+  min-width: 23px;
+}
+.k4 {
+  letter-spacing: -0.11px;
+  min-width: 34px;
+}
+.k-frame {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs) 0 0;
+}
+.icon10,
+.k5 {
+  position: relative;
+}
+.icon10 {
+  height: 10px;
+  width: 9.5px;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 10px;
+}
+.k5 {
+  flex: 1;
+  letter-spacing: -0.11px;
+  line-height: 10px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 35.7px;
+}
+.placeholder-group,
+.world-list-item-info-items-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.placeholder-group {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-12xs-6);
+  font-size: var(--font-size-2xs);
+  color: var(--color-darkgray);
+}
+.world-list-item-info-items-parent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-lgi-2);
+}
+.icon-parent1,
+.link-container {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.icon-parent1 {
+  flex-direction: row;
+  align-items: flex-end;
+  gap: var(--gap-11xs);
+  flex-shrink: 0;
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-100);
+}
+.link-container {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-12xs-2);
+}
+.backgroundbordershadow-inner2,
+.backgroundbordershadow3,
+.world-list-items2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.backgroundbordershadow-inner2 {
+  width: 122.4px;
+  flex-direction: column;
+  padding: var(--padding-2xs-9) 0 0;
+}
+.backgroundbordershadow3,
+.world-list-items2 {
+  flex-direction: row;
+  max-width: 100%;
+}
+.backgroundbordershadow3 {
+  flex: 1;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.03);
+  border-radius: var(--br-xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-whitesmoke-200);
+  overflow: hidden;
+  padding: 0 var(--padding-12xs);
+  gap: var(--gap-3xs);
+}
+.world-list-items2 {
+  align-self: stretch;
+  padding: 0 0 var(--padding-2xs-5);
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-400);
+  font-family: var(--font-poppins);
+}
