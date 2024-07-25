@@ -5,7 +5,8 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import MaplestoryworldsnexoncomBy from "./components/MaplestoryworldsnexoncomBy";
+import IndexPage from "./pages/indexpage";
+import ContentsPage from "./pages/contentspage";
 
 function App() {
   const action = useNavigationType();
@@ -27,6 +28,10 @@ function App() {
         title = "";
         metaDescription = "";
         break;
+      case "/maplestoryworldsnexoncom-by-htmltodesign-free-version-25072024-223510-gmt9":
+        title = "";
+        metaDescription = "";
+        break;
     }
 
     if (title) {
@@ -45,7 +50,11 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<MaplestoryworldsnexoncomBy />} />
+      <Route path="/" element={<IndexPage />} />
+      <Route
+        path="/maplestoryworldsnexoncom-by-htmltodesign-free-version-25072024-223510-gmt9"
+        element={<ContentsPage />}
+      />
     </Routes>
   );
 }
