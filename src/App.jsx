@@ -5,7 +5,7 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import WorldListItems1 from "./components/WorldListItems1";
+import MaplestoryworldsnexoncomBy from "./components/MaplestoryworldsnexoncomBy";
 
 function App() {
   const action = useNavigationType();
@@ -45,7 +45,7 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<WorldListItems1 />} />
+      <Route path="/" element={<MaplestoryworldsnexoncomBy />} />
     </Routes>
   );
 }

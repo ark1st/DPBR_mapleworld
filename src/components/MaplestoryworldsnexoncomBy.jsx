@@ -1,4 +1,3 @@
-import WorldListItems1 from "./WorldListItems1";
 import WorldListItems from "./WorldListItems";
 import PropTypes from "prop-types";
 import "./MaplestoryworldsnexoncomBy.css";
@@ -52,15 +51,7 @@ const MaplestoryworldsnexoncomBy = ({ className = "" }) => {
               </div>
               <div className="item4">
                 <div className="div">새롭게 떠오르는</div>
-                <div className="button1">
-                  <img
-                    className="icon1"
-                    loading="lazy"
-                    alt=""
-                    src="/icon-1.svg"
-                  />
-                  <div className="gradient" />
-                </div>
+
               </div>
               <div className="item5">
                 <a className="a3">신규</a>
@@ -93,21 +84,10 @@ const MaplestoryworldsnexoncomBy = ({ className = "" }) => {
               <div className="partners-wrapper">
                 <h3 className="partners-container">
                   <p className="partners1">
-                    메월드 Partners 크리에이터가 제작한 월드를 만나보세
+                    메월드 Partners 크리에이터가 제작한 월드를 만나보세요.
                   </p>
-                  <p className="p">요.</p>
                 </h3>
               </div>
-              <WorldListItems1
-                linkEBA994EC9DB4ED948C="/link--eba994ec9db4ed948cec9b94eb939c-ec9584eba5b4ed858cec9dbc-960x540-ec8db8eb84a4ec9dbc-ec9984ec84b1-e62bba80bbdf4acb90c1161e3139aef9png@2x.png"
-                prop="아르테일"
-                backgroundBorder="/backgroundborder@2x.png"
-                prop1="룰루월드"
-                image="/image.svg"
-                placeholder="96%"
-                k="(31.7k)"
-                k1="444.1k"
-              />
               <WorldListItems
                 linkEBA994EB9E9CEB9494="/link--eba994eb9e9ceb949420170v20ec8db8eb84a4ec9dbc-e9cbc363f38e43bd890f389bc81b88cepng@2x.png"
                 prop="메이플 랜덤 디펜스"
@@ -218,16 +198,7 @@ const MaplestoryworldsnexoncomBy = ({ className = "" }) => {
                 icon1="/icon-3.svg"
                 k1="580.4k"
               />
-              <WorldListItems1
-                linkEBA994EC9DB4ED948C="/link--1696720986515-422png@2x.png"
-                prop="개발 강좌용 월드"
-                backgroundBorder="/container-5@2x.png"
-                prop1="김민현"
-                image="/image-1.svg"
-                placeholder="100%"
-                k="(25)"
-                k1="424"
-              />
+
               <WorldListItems
                 linkEBA994EB9E9CEB9494="/link--adsaszxc-9a09d7d905d54868b5cb1d5bd82d2404png@2x.png"
                 prop="로나 월드"
