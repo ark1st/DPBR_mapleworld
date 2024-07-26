@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 
 const FlexButton = ({ className = "", children, active = false }) => {
-    const baseClasses = "h-8 rounded-xl flex items-center justify-start pt-0.5 pb-0.5 whitespace-nowrap px-3 border";
+    const baseClasses = "h-8 rounded-xl flex items-center justify-start py-0.5 whitespace-nowrap px-3 border";
     const activeClasses = "bg-gray-400 border-gainsboro text-white";
     const inactiveClasses = "border-solid border-gainsboro text-gray-400";
   

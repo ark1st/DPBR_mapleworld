@@ -4,21 +4,21 @@ import FlexButton from "./FlexButton";
 const NavigationBar = ({ className = "" }) => {
   return (
     <div
-      className={`self-stretch bg-white flex flex-row items-start justify-start pt-2.5 pb-[7px] pr-3 pl-5 gap-[6px] text-center text-sm text-gray-400 font-poppins border-b-[1px] border-solid border-whitesmoke-200 ${className}`}
+       className={`self-stretch bg-white flex flex-row items-start justify-start py-2.5 px-5 gap-1.5 text-center text-sm text-gray-400 font-poppins border-b border-whitesmoke-200 overflow-x-auto ${className}`}
     >
-      <FlexButton className="min-w-[27px]" active>
+      <FlexButton className="inline-block">
         전체
       </FlexButton>
-      <FlexButton className="min-w-[99px]">
+      <FlexButton className="inline-block">
         메월드 Partners
       </FlexButton>
-      <FlexButton className="min-w-[73px]">
+      <FlexButton className="inline-block">
         메월드 Next
       </FlexButton>
-      <FlexButton className="min-w-[73px]">
+      <FlexButton className="inline-block">
         메월드 Next
       </FlexButton>
-      <FlexButton className="min-w-[27px]">
+      <FlexButton className="inline-block">
         메월드
       </FlexButton>
     </div>

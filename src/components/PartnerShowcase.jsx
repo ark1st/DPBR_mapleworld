@@ -40,7 +40,6 @@ const PartnerShowcase = ({ className = "" }) => {
             badgeImage="/image.svg"
             likePercentage="96%"
             likeCount="(31.7k)"
-            playIcon="/icon-3.svg"
             playCount="444.1k"
           />
           <GameInfoCard
@@ -51,7 +50,6 @@ const PartnerShowcase = ({ className = "" }) => {
             badgeImage="/image-1.svg"
             likePercentage="97%"
             likeCount="(3.3k)"
-            playIcon="/icon-5.svg"
             playCount="123.6k"
           />
         </div>
