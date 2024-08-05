@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import AppBar from "../components/AppBar";
 import MSGSPersonalDescription from "../components/MSGSPersonalDescription";
 import MSGSPersonalContents from "../components/MSGSPersonalContents";
+import FooterContainer from "../components/FooterContainer";
 
 const Contents = () => {
   const navigate = useNavigate();
@@ -54,14 +55,7 @@ const Contents = () => {
           </div>
         </section>
       </main>
-      <footer className="self-stretch h-[120px] relative bg-background-background20 overflow-hidden shrink-0">
-        <img
-          className="absolute top-[calc(50%_-_11px)] left-[calc(50%_-_39.5px)] w-20 h-[21.9px] object-cover mix-blend-luminosity"
-          loading="lazy"
-          alt=""
-          src="/image-92@2x.png"
-        />
-      </footer>
+      <FooterContainer />
     </div>
   );
 };

@@ -1,4 +1,4 @@
-import PropTypes from "prop-types";
+ㅛYimport PropTypes from "prop-types";
 
 const MSGSPersonalDescription = ({ className = "" }) => {
   return (
