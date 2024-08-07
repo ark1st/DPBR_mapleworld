@@ -1,6 +1,6 @@
 // MSGSection.js
 import React from "react";
-import MSGSCard from "../components/MSGSCard";
+import MSGSCard from "./MSGSCard/MSGSCard";
 
 const MSGSSection = ({ title, description, msgCardsData, onCardClick }) => (
   <div className="flex flex-col items-start justify-start gap-4 w-full">

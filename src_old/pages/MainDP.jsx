@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import AndroidStatusBars from "../../src/components/AndroidStatusBars";
 import Icon from "../../src/components/Icon";
 import TabBar from "../../src/components/TabBar";
-import MSGSCard from "../../src/components/MSGSCard";
+import MSGSCard from "../../src/components/MSGSSection/MSGSCard/MSGSCard";
 
 const MainDP = () => {
   const navigate = useNavigate();

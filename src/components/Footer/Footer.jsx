@@ -2,7 +2,7 @@ import { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import PropTypes from "prop-types";
 
-const FooterContainer = ({ className = "" }) => {
+const Footer = ({ className = "" }) => {
   const navigate = useNavigate();
 
   const onMSGSCardContainerClick = useCallback(() => {
@@ -23,8 +23,8 @@ const FooterContainer = ({ className = "" }) => {
   );
 };
 
-FooterContainer.propTypes = {
+Footer.propTypes = {
   className: PropTypes.string,
 };
 
-export default FooterContainer;
+export default Footer;

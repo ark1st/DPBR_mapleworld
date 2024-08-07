@@ -1,7 +1,7 @@
 import { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
-import FooterContainer from "../components/FooterContainer";
-import AppBar from "../components/AppBar";
+import Footer from "../components/Footer/Footer";
+import AppBar from "../components/Appbar/AppBar";
 const DPBRProfile = () => {
   const navigate = useNavigate();
 
@@ -126,7 +126,7 @@ const DPBRProfile = () => {
           </section>
         </main>
 
-        <FooterContainer/>
+        <Footer/>
       </div>
 
 

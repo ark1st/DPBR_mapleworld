@@ -1,4 +1,4 @@
-import FrameComponent from "../../src/components/FrameComponent";
+import FrameComponent from "../components/FrameComponent";
 import Content from "../../src/components/Content";
 import MessageList from "../../src/components/MessageList";
 

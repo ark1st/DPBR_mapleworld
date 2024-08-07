@@ -1,48 +1,53 @@
 // Main.js
 import { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
-import AppBar from "../components/AppBar";
+import AppBar from "../components/Appbar/AppBar";
 import TabBar from "../components/TabBar";
-import FooterContainer from "../components/FooterContainer";
-import MSGSSection from "../components/MSGSSection"; // 추가: 분리된 MSGSection 컴포넌트 가져오기
+import Footer from "../components/Footer/Footer";
+import MSGSSection from "../components/MSGSSection/MSGSSection"; // 추가: 분리된 MSGSection 컴포넌트 가져오기
 
-// MSGSCard 데이터를 배열로 관리
 const msgCardsDataDP = [
   {
-    prop: "미나의 메생을 보시겟나용ㅇ",
-    prop1: "강민아",
-    dPBRBadge: "/dpbr-badge2.svg",
-    image: "/rectangle-12@2x.png"
+    title: "미나의 메생을 보시겟나용ㅇ",
+    author: "강민아",
+    badgeImage: "/dpbr-badge2.svg",
+    coverImage: "/rectangle-12@2x.png",
   },
   {
-    prop: "준향이의 메생결산",
-    prop1: "정준형",
-    dPBRBadge: "/dpbr-badge2.svg",
+    title: "준향이의 메생결산",
+    author: "정준형",
+    badgeImage: "/dpbr-badge2.svg",
+    coverImage: "/rectangle-12@2x.png", // Cover image 추가
   },
   {
-    prop: "타루카루타루카루타루카루타",
-    prop1: "김윤",
-    dPBRBadge: "/dpbr-badge2.svg",
+    title: "타루카루타루카루타루카루타",
+    author: "김윤",
+    badgeImage: "/dpbr-badge2.svg",
+    coverImage: "/rectangle-12@2x.png", // Cover image 추가
   },
 ];
 
 const msgCardsDataBR = [
   {
-    prop: "미나의 메생을 보시겟나용ㅇ",
-    prop1: "강민아",
-    dPBRBadge: "/dpbr-badge1.svg",
+    title: "미나의 메생을 보시겟나용ㅇ",
+    author: "강민아",
+    badgeImage: "/dpbr-badge1.svg",
+    coverImage: "/rectangle-12@2x.png", // Cover image 추가
   },
   {
-    prop: "준향이의 메생결산",
-    prop1: "정준형",
-    dPBRBadge: "/dpbr-badge1.svg",
+    title: "준향이의 메생결산",
+    author: "정준형",
+    badgeImage: "/dpbr-badge1.svg",
+    coverImage: "/rectangle-12@2x.png", // Cover image 추가
   },
   {
-    prop: "타루카루타루카루타루카루타",
-    prop1: "김윤",
-    dPBRBadge: "/dpbr-badge1.svg",
+    title: "타루카루타루카루타루카루타",
+    author: "김윤",
+    badgeImage: "/dpbr-badge1.svg",
+    coverImage: "/rectangle-12@2x.png", // Cover image 추가
   },
 ];
+
 
 const Main = () => {
   const navigate = useNavigate();
@@ -93,7 +98,7 @@ const Main = () => {
           />
         </div>
       </section>
-      <FooterContainer />
+      <Footer />
     </div>
   );
 };

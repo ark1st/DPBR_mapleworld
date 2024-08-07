@@ -1,7 +1,7 @@
 import { useMemo } from "react";
 import PropTypes from "prop-types";
 
-const MSGSPersonalContents = ({
+const PersonalContents = ({
   className = "",
   rectangle1,
   prop,
@@ -48,7 +48,7 @@ const MSGSPersonalContents = ({
   );
 };
 
-MSGSPersonalContents.propTypes = {
+PersonalContents.propTypes = {
   className: PropTypes.string,
   rectangle1: PropTypes.string,
   prop: PropTypes.string,
@@ -60,4 +60,4 @@ MSGSPersonalContents.propTypes = {
   propMinWidth: PropTypes.any,
 };
 
-export default MSGSPersonalContents;
+export default PersonalContents;

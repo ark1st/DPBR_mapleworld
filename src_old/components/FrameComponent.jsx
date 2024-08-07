@@ -1,8 +1,8 @@
 import { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import AndroidStatusBars from "./AndroidStatusBars";
-import AppBar from "./AppBar";
-import TabBar from "./TabBar";
+import AppBar from "../../src/components/Appbar/AppBar";
+import TabBar from "../../src/components/TabBar";
 import PropTypes from "prop-types";
 
 const FrameComponent = ({ className = "" }) => {

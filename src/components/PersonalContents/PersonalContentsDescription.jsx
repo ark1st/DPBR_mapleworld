@@ -1,6 +1,6 @@
-ㅛYimport PropTypes from "prop-types";
+import PropTypes from "prop-types";
 
-const MSGSPersonalDescription = ({ className = "" }) => {
+const PersonalContentsDescription = ({ className = "" }) => {
   return (
     <div
       className={`self-stretch flex flex-col items-start justify-start gap-4 text-left text-xs text-text-text500 font-dpbr-typography-f12-md ${className}`}
@@ -106,8 +106,8 @@ const MSGSPersonalDescription = ({ className = "" }) => {
   );
 };
 
-MSGSPersonalDescription.propTypes = {
+PersonalContentsDescription.propTypes = {
   className: PropTypes.string,
 };
 
-export default MSGSPersonalDescription;
+export default PersonalContentsDescription;
